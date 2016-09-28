@@ -15,39 +15,6 @@ h1 {
   font-weight: 400;
 }
 
-.fa-pencil {
-  float: right;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#container {
-  width: 360px;
-  margin: 100px auto;
-  background: #f7f7f7;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-}
-
-.completed {
-  color: gray;
-  text-decoration: line-through;
-}
-
-li {
-  background: #fff;
-  height: 40px;
-  line-height: 40px;
-  color: #666;
-}
-
-li:nth-child(2n){
-  background: #f7f7f7;
-}
-
 input {
   font-size: 18px;
   background: #f7f7f7;
@@ -64,6 +31,35 @@ input:focus {
   outline: none;
 }
 
+#container {
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n){
+  background: #f7f7f7;
+}
+
+li:hover span {
+  opacity: 1.0;
+  width: 40px;
+}
+
 span {
   background: #ff0000;
   height: 40px;
@@ -76,7 +72,11 @@ span {
   opacity: 0;
 }
 
-li:hover span {
-  opacity: 1.0;
-  width: 40px;
+.fa-pencil {
+  float: right;
+}
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
 }
